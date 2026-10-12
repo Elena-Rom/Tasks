@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мои задачи</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <header class="header">
+            <div class="header-info">
+                <div class="logo">✓</div>
+                <div>
+                    <h1>Мои задачи</h1>
+                    <p>Планируй и Делай</p>
+                </div>
+            </div>
+
+            <button class="button">＋ Добавить задачу</button>
+        </header>
+
+        <section class="board">
+            <!-- Сделать -->
+            <div class="column column-todo">
+                <div class="column-header">
+                    <span class="count">3</span>
+                    <h2>Сделать</h2>
+                </div>
+
+                <article class="task task-blue">
+                    <h3>Сверстать главную страницу</h3>
+                    <p>Реализовать адаптивную верстку по макету.</p>
+                    <div class="task-footer">
+                        <time datetime="2026-10-15">15 октября</time>
+                        <span class="avatar">АН</span>
+                    </div>
+                </article>
+
+                <article class="task task-purple">
+                    <h3>Настроить сборку проекта</h3>
+                    <p>Добавить ESLint, Prettier и скрипты для сборки.</p>
+                    <div class="task-footer">
+                        <time datetime="2026-10-17">17 октября</time>
+                        <span class="avatar">ДК</span>
+                    </div>
+                </article>
+
+                <article class="task task-orange">
+                    <h3>Написать тесты</h3>
+                    <p>Покрыть основные компоненты юнит-тестами.</p>
+                    <div class="task-footer">
+                        <time datetime="2026-10-19">19 октября</time>
+                        <span class="avatar">МС</span>
+                    </div>
+                </article>
+            </div>
+
+            <!-- В работе -->
+            <div class="column column-progress">
+                <div class="column-header">
+                    <span class="count">2</span>
+                    <h2>В работе</h2>
+                </div>
+
+                <article class="task task-blue">
+                    <h3>Разработать карточки</h3>
+                    <p>Создать переиспользуемый компонент задачи.</p>
+                    <div class="task-footer">
+                        <time datetime="2026-10-13">13 октября</time>
+                        <span class="avatar">ДК</span>
+                    </div>
+                </article>
+
+                <article class="task task-purple">
+                    <h3>Реализовать drag & drop</h3>
+                    <p>Добавить перемещение задач между колонками.</p>
+                    <div class="task-footer">
+                        <time datetime="2026-10-16">16 октября</time>
+                        <span class="avatar">МС</span>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Сделано -->
+            <div class="column column-done">
+                <div class="column-header">
+                    <span class="count">2</span>
+                    <h2>Сделано</h2>
+                </div>
+
+                <article class="task task-green task-completed">
+                    <h3>Создать структуру проекта</h3>
+                    <p>Инициализировать проект и настроить папки.</p>
+                    <div class="task-footer">
+                        <time datetime="2026-10-10">10 октября</time>
+                        <span class="avatar">АН</span>
+                    </div>
+                </article>
+
+                <article class="task task-green task-completed">
+                    <h3>Подключить стили</h3>
+                    <p>Настроить глобальные стили и шрифты.</p>
+                    <div class="task-footer">
+                        <time datetime="2026-10-11">11 октября</time>
+                        <span class="avatar">ДК</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
